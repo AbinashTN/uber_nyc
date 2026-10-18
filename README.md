@@ -29,17 +29,6 @@ Ouvrir l'adresse locale affichée par Streamlit. Le projet est fourni avec les d
 - `tests.py` : vérification des agrégations et des cas limites.
 - `.streamlit/config.toml` : thème.
 
-## Calculs et limites
-
-Sommes / effectifs : pas de moyenne simple de moyennes. Les attentes utilisent `nb_attentes_valides`. Pour les profils temporels, le nombre de jours est calculé sur la source avant le filtre géographique. Un mois incomplet est signalé ; aucune date source absente n'est inventée.
-
-Le seuil géographique par défaut (1 000 attentes et 95 % de couverture) sert à l'exploration et n'est pas un test statistique. EWR ne contient que deux courses dans cette version. Les matrices financières montrent les données brutes agrégées, avec un avertissement pour les faibles effectifs.
-
-Le script amont n'a pas été fourni : les règles exactes d'exclusion, le filtrage du fournisseur et la définition d'attente valide restent à documenter. On ne peut pas calculer les médianes et percentiles individuels à partir des agrégats.
-
-## Partage
-
-Le projet est livré sous forme de code exécutable, sans déploiement public. Pour un hébergement compatible Streamlit, utiliser `app.py` comme point d'entrée, `requirements.txt` pour les dépendances et conserver les dossiers de données et de captures. Aucune clé ni aucun compte n'est nécessaire pour l'exécution locale.
 
 ## Sources
 
