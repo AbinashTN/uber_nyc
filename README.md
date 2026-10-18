@@ -2,7 +2,11 @@
 
 Application Streamlit en français : quatre pages analytiques et une page À propos. Les graphiques, KPI et conclusions suivent les filtres et sont recalculés à partir des CSV. Aucun chiffre n'est extrait des captures.
 
-## Démarrer sur Mac
+## Lien de l'application Streamlit avec les Captures Power Bi : 
+
+https://ubernyc-powerbi.streamlit.app
+
+## Démarrer
 
 Depuis le dossier décompressé `uber_nyc`, ouvrir un terminal :
 
@@ -24,8 +28,6 @@ Ouvrir l'adresse locale affichée par Streamlit. Le projet est fourni avec les d
 - `ANALYSE.md` : conclusions sur l'ensemble janvier–février 2025.
 - `tests.py` : vérification des agrégations et des cas limites.
 - `.streamlit/config.toml` : thème.
-
-Les chemins sont relatifs au fichier app.py. Remplacer les CSV en conservant leur schéma recharge les calculs (cache basé sur la taille et la date de modification). La page À propos conserve la provenance et la documentation de ce projet initial. À mettre à jour si le périmètre source change.
 
 ## Calculs et limites
 
